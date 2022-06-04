@@ -1,13 +1,20 @@
 import React from "react";
 
-// Page
-import Header from "./components/layouts/Header";
+// Pages
 import Home from "./components/pages/Home";
+
+// Style
+import styled from "styled-components";
+
+
+const StyledHeader = styled
 
 function App() {
   return (
     <>
-      <Header />
+      <div className="">
+        <h1 className="">Header</h1>
+      </div>
       <Home />
     </>
   );
