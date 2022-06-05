@@ -1,21 +1,25 @@
 import React from "react";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+
+// Layouts
+import Header from "./components/layout/Header";
 
 // Pages
 import Home from "./components/pages/Home";
-
-// Style
-import styled from "styled-components";
-
-
-const StyledHeader = styled
+import Projects from "./components/pages/Projects";
+import Contact from "./components/pages/Contact";
 
 function App() {
   return (
     <>
-      <div className="">
-        <h1 className="">Header</h1>
-      </div>
-      <Home />
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </>
   );
 }
