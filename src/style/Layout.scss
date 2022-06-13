@@ -1,0 +1,48 @@
+.header {
+  height: 8rem;
+  nav {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      a {
+        font-family: var(--font-js);
+
+        font-size: 35px;
+        color: var(--dark);
+        font-weight: var(--bold);
+        line-height: 30px;
+        span {
+          &:nth-child(1) {
+            letter-spacing: 5px;
+            color: var(--green);
+          }
+        }
+      }
+    }
+    .nav-link {
+      ul {
+        list-style: none;
+        display: flex;
+        gap: 40px;
+        li {
+          a {
+            text-decoration: none;
+            color: var(--dark);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-family: var(--font-m);
+            font-weight: var(--semi-bold);
+            transition: 0.4s;
+            &:hover {
+              opacity: 0.5;
+            }
+          }
+        }
+      }
+    }
+  }
+}

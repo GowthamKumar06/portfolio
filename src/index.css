@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
   --green: #00a896;
   --gray: #f0f0f0;
   --dark: #000000;
   --light: #ffffff;
-  --font-1: "Josefin Sans", sans-serif;
-  --font-2: "Montserrat", sans-serif;
+  --font-js: "Josefin Sans", sans-serif;
+  --font-m: "Montserrat", sans-serif;
+  --font-p: 'Poppins', sans-serif;
   --thin: 300;
-  --light: 400;
+  --lighter: 400;
   --regular: 500;
   --semi-bold: 600;
   --bold: 700;
@@ -23,4 +25,7 @@
 
 body {
   overflow-x: hidden;
+}
+a {
+  text-decoration: none;
 }

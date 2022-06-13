@@ -5,9 +5,9 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/layout/Header";
 
 // Pages
-import Home from "./components/pages/Home";
-import Projects from "./components/pages/Projects";
-import Contact from "./components/pages/Contact";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
