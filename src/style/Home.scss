@@ -22,6 +22,12 @@
             font-size: 55px;
             font-family: var(--font-js);
             font-weight: var(--semi-bold);
+            span {
+              transition: 0.4s;
+              &:hover {
+                color: var(--green);
+              }
+            }
           }
         }
         .role-title {

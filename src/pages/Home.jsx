@@ -19,9 +19,28 @@ export default function Home() {
           <div className="row">
             <div className="col">
               <div className="intro-title">
-                <h1>Hello</h1>
-                <h1>I'm</h1>
-                <h1>Gowtham</h1>
+                <h1>
+                  <span>H</span>
+                  <span>e</span>
+                  <span>l</span>
+                  <span>l</span>
+                  <span>o</span>
+                </h1>
+
+                <h1>
+                  <span>I</span>
+                  <span>'</span>
+                  <span>m</span>
+                </h1>
+                <h1>
+                  <span>G</span>
+                  <span>o</span>
+                  <span>w</span>
+                  <span>t</span>
+                  <span>h</span>
+                  <span>a</span>
+                  <span>m</span>
+                </h1>
               </div>
               <div className="role-title">
                 <h1>
