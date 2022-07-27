@@ -17,47 +17,48 @@ export default function Home() {
       <div id="home-page">
         <div className="container">
           <div className="row">
-            <div className="col">
-              <div className="intro-title">
-                <h1>
-                  <span>H</span>
-                  <span>e</span>
-                  <span>l</span>
-                  <span>l</span>
-                  <span>o</span>
-                </h1>
+            <div className="col-6">
+              <div className="main-title">
+                <div className="name">
+                  <h1>
+                    <span>H</span>
+                    <span>e</span>
+                    <span>l</span>
+                    <span>l</span>
+                    <span>o</span>
+                  </h1>
 
-                <h1>
-                  <span>I</span>
-                  <span>'</span>
-                  <span>m</span>
-                </h1>
-                <h1>
-                  <span>G</span>
-                  <span>o</span>
-                  <span>w</span>
-                  <span>t</span>
-                  <span>h</span>
-                  <span>a</span>
-                  <span>m</span>
-                </h1>
-              </div>
-              <div className="role-title">
-                <h1>
-                  Front-End <br />
-                  Developer
-                </h1>
+                  <h1>
+                    <span>I</span>
+                    <span>'</span>
+                    <span>m</span>
+                  </h1>
+                  <h1>
+                    <span>G</span>
+                    <span>o</span>
+                    <span>w</span>
+                    <span>t</span>
+                    <span>h</span>
+                    <span>a</span>
+                    <span>m</span>
+                  </h1>
+                </div>
+                <div className="desigination">
+                  <h1>
+                    Front-End <br />
+                    Developer
+                  </h1>
+                </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col-6">
               <div className="developer-image">
-                {/* <span></span> */}
                 <img src={TestImg01} alt="" />
               </div>
             </div>
           </div>
           <div className="row">
-            <div className="col">
+            <div className="col-4">
               <div className="social-media-icons">
                 <a href="mailto:gowthamkumarkkp@gmail.com">
                   <h6>gowthamkumrkkp@gmail.com</h6>
@@ -79,12 +80,15 @@ export default function Home() {
                 </a>
               </div>
             </div>
-          </div>
-          <div className="know-more-btn">
-            <span>
-              <BsMouse />
-            </span>
-            <h6>Know More</h6>
+            <div className="col-4">
+              <div className="know-more-btn">
+                <span>
+                  <BsMouse />
+                </span>
+                <h6>Know More</h6>
+              </div>
+            </div>
+            <div className="col-4"></div>
           </div>
         </div>
       </div>
