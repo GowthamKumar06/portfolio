@@ -45,8 +45,7 @@ export default function Home() {
                 </div>
                 <div className="desigination">
                   <h1>
-                    Front-End <br />
-                    Developer
+                    Web Developer
                   </h1>
                 </div>
               </div>

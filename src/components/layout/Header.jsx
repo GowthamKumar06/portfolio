@@ -30,6 +30,8 @@ export default function Header() {
                       Contact
                     </NavLink>
                   </li>
+
+                  <button className="theme-switch">🌞</button>
                 </ul>
               </div>
             </div>
