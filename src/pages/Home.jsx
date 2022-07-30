@@ -10,6 +10,7 @@ import Developer from "../images/Test-03.png";
 
 import { FaGithub, FaEnvelope, FaLinkedinIn } from "react-icons/fa";
 import { BsMouse } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -21,31 +22,26 @@ export default function Home() {
               <div className="main-title">
                 <div className="name">
                   <h1>
-                    <span>H</span>
-                    <span>e</span>
-                    <span>l</span>
-                    <span>l</span>
-                    <span>o</span>
-                  </h1>
-
-                  <h1>
-                    <span>I</span>
-                    <span>'</span>
-                    <span>m</span>
-                  </h1>
-                  <h1>
-                    <span>G</span>
-                    <span>o</span>
-                    <span>w</span>
-                    <span>t</span>
-                    <span>h</span>
-                    <span>a</span>
-                    <span>m</span>
+                    Hello <br />
+                    I'm <br />
+                    Gowtham
                   </h1>
                 </div>
                 <div className="desigination">
                   <h1>
-                    Web Developer
+                    <span>W</span>
+                    <span>e</span>
+                    <span>b</span>
+                    <br />
+                    <span>D</span>
+                    <span>e</span>
+                    <span>v</span>
+                    <span>e</span>
+                    <span>l</span>
+                    <span>o</span>
+                    <span>p</span>
+                    <span>e</span>
+                    <span>r</span>
                   </h1>
                 </div>
               </div>
@@ -80,12 +76,12 @@ export default function Home() {
               </div>
             </div>
             <div className="col-4">
-              <div className="know-more-btn">
+              <Link className="know-more-btn" to="/about">
                 <span>
                   <BsMouse />
                 </span>
                 <h6>Know More</h6>
-              </div>
+              </Link>
             </div>
             <div className="col-4"></div>
           </div>

@@ -1,0 +1,105 @@
+#about-page {
+  font-family: var(--font-js);
+  .go-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+    text-decoration: none;
+    padding: 10px 0;
+    color: var(--dark);
+    span {
+      font-size: 24px;
+    }
+    h6 {
+      font-family: var(--font-m);
+      font-weight: var(--bold);
+      font-size: 12px;
+    }
+    &:hover {
+      span {
+        animation: scroll-down 2s infinite;
+        @keyframes scroll-down {
+          0% {
+            transform: translateY(0);
+          }
+          50% {
+            transform: translateY(-10px);
+          }
+          100% {
+            transform: translateY(0);
+          }
+        }
+      }
+    }
+  }
+  .description-box {
+    background: var(--green);
+    padding: 20px;
+    border-radius: 10px;
+    p {
+      color: var(--light);
+      font-size: 20px;
+      margin: 0;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+  .education-box {
+    h3 {
+      margin: 0;
+    }
+    background-color: #fff4ec;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .block {
+      background-color: var(--light);
+      padding: 10px;
+      border-radius: 5px;
+    }
+  }
+  .tech-knowledge-box {
+    background: #fee440;
+    padding: 20px;
+    border-radius: 10px;
+    .title {
+      color: var(--light);
+    }
+    ul {
+      display: flex;
+      padding: 0;
+      align-items: flex-start;
+      justify-content: space-around;
+      list-style: none;
+      li {
+        font-size: 20px;
+        font-weight: var(--bold);
+        background-color: var(--light);
+        padding: 35px;
+        border-radius: 5px;
+        ul {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          margin-top: 1rem;
+          padding: 0;
+          list-style: revert;
+          height: 100px;
+
+          li {
+            font-weight: var(--regular);
+            font-size: 18px;
+            padding: 5px 0;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

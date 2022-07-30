@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // StyleSheet
-import './index.css';
+import './index.scss';
 
 // Component
 import App from "./App"
