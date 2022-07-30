@@ -4,7 +4,7 @@ import React from "react";
 import "../style/Home.scss";
 
 //Image
-import TestImg01 from "../images/Test-02.png";
+import Developer from "../images/Test-03.png";
 
 // Icons
 
@@ -52,7 +52,7 @@ export default function Home() {
             </div>
             <div className="col-6">
               <div className="developer-image">
-                <img src={TestImg01} alt="" />
+                <img src={Developer} alt="" />
               </div>
             </div>
           </div>

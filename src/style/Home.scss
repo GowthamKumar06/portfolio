@@ -1,13 +1,4 @@
 #home-page {
-  background-image: linear-gradient(
-      to left,
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 0.7)
-    ),
-    url(../images/bg-01.png);
-  background-position: left center;
-  background-repeat: no-repeat;
-  background-size: 50%;
   .main-title {
     display: flex;
     flex-direction: column;
@@ -35,7 +26,6 @@
         font-weight: var(--semi-bold);
         letter-spacing: 5px;
         line-height: 65px;
-
         -webkit-text-stroke-width: 0.8px;
         -webkit-text-stroke-color: rgba(0, 0, 0, 0.4);
       }
@@ -45,23 +35,8 @@
   .developer-image {
     position: relative;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     z-index: 99;
-    &::after {
-      content: "";
-      position: absolute;
-      top: 2%;
-      right: 0;
-      width: 34rem;
-      height: 34rem;
-      background-color: var(--gray);
-      display: block;
-      z-index: -9;
-      border-radius: 100%;
-      transition: 0.5s;
-      transition-delay: 0.6;
-    }
-
     img {
       width: 90%;
     }
