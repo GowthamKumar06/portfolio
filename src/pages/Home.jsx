@@ -18,7 +18,7 @@ export default function Home() {
       <div id="home-page">
         <div className="container">
           <div className="row">
-            <div className="col-6">
+            <div className="col-lg-6 col-md-12 col-sm-12">
               <div className="main-title">
                 <div className="name">
                   <h1>
@@ -46,14 +46,14 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-lg-6 col-md-12 col-sm-12">
               <div className="developer-image">
                 <img src={Developer} alt="" />
               </div>
             </div>
           </div>
           <div className="row">
-            <div className="col-4">
+            <div className="col-lg-4 col-md-12 col-sm-12">
               <div className="social-media-icons">
                 <a href="mailto:gowthamkumarkkp@gmail.com">
                   <h6>gowthamkumrkkp@gmail.com</h6>
@@ -75,7 +75,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-lg-4 col-md-12 col-sm-12">
               <Link className="know-more-btn" to="/about">
                 <span>
                   <BsMouse />
@@ -83,7 +83,7 @@ export default function Home() {
                 <h6>Know More</h6>
               </Link>
             </div>
-            <div className="col-4"></div>
+            <div className="col-lg-4 col-md-12 col-sm-12"></div>
           </div>
         </div>
       </div>

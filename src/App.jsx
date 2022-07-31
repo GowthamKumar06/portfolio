@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import {
   HashRouter as Router,
   Routes,
@@ -33,3 +33,25 @@ function App() {
 }
 
 export default App;
+
+// class App extends Component {
+//   render() {
+//     if (window.location.path === "/about") {
+//       return null;
+//     } else {
+//       return (
+//         <>
+//           <Router>
+//             <Header />
+//             <Routes>
+//               <Route path="" element={<Home />} />
+//               {/* <Route path="/about" element={<About />} /> */}
+//               <Route path="/projects" element={<Projects />} />
+//               <Route path="/contact" element={<Contact />} />
+//             </Routes>
+//           </Router>
+//         </>
+//       );
+//     }
+//   }
+// }

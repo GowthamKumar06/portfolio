@@ -41,7 +41,7 @@
     p {
       color: var(--light);
       font-size: 20px;
-      margin: 0;
+
       a {
         text-decoration: none;
       }
@@ -54,7 +54,7 @@
     background-color: #fff4ec;
     padding: 20px;
     border-radius: 10px;
-    margin-top: 1.5rem;
+    margin-top: 1.8rem;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -90,7 +90,7 @@
           margin-top: 1rem;
           padding: 0;
           list-style: revert;
-          height: 100px;
+          height: 130px;
 
           li {
             font-weight: var(--regular);
@@ -100,6 +100,25 @@
           }
         }
       }
+    }
+  }
+  .work-experiance {
+    background-color: #335c67;
+    margin-top: 1rem;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .title {
+      h3 {
+        color: var(--light);
+      }
+    }
+    .box {
+      background-color: var(--light);
+      padding: 10px;
+      border-radius: 5px;
     }
   }
 }

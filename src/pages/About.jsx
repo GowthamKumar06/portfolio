@@ -68,6 +68,7 @@ export default function About() {
                     <ul>
                       <li>React Js</li>
                       <li>WordPress</li>
+                      <li>Boot Strap</li>
                       <li>Scss</li>
                     </ul>
                   </li>
@@ -76,6 +77,7 @@ export default function About() {
                     <ul>
                       <li>Node Js</li>
                       <li>Mango DB</li>
+                      <li>Git Hub</li>
                     </ul>
                   </li>
                   <li>
@@ -85,6 +87,21 @@ export default function About() {
                     </ul>
                   </li>
                 </ul>
+              </div>
+              <div className="work-experiance">
+                <div className="title">
+                  <h3>Experiance ⚒️</h3>
+                </div>
+                <div className="box">
+                  <h6 className="company">Byzero Technologies, Erode</h6>
+                  <h6 className="role">Junior Web Developer</h6>
+                  <h6 className="duration">Dec 2021 - Present</h6>
+                </div>
+                <div className="box">
+                  <h6 className="company">Branding Beez, Coimbatore</h6>
+                  <h6 className="role">Web Developer (Intern)</h6>
+                  <h6 className="duration">Feb 2021 - May 2021</h6>
+                </div>
               </div>
             </div>
           </div>

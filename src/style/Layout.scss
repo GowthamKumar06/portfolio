@@ -52,3 +52,16 @@
     }
   }
 }
+
+// Media Query
+
+@media (max-width: 1025px) {
+  .header {
+    .logo {
+      font-size: 30px;
+      line-height: 20px;
+    }
+  }
+}
+
+

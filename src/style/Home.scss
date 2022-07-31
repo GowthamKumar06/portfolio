@@ -153,3 +153,80 @@
     }
   }
 }
+
+// Media Query
+
+@media (max-width: 1025px) {
+  #home-page {
+    .main-title {
+      .name {
+        h1 {
+          font-size: 45px;
+          line-height: 40px;
+        }
+      }
+      .desigination {
+        h1 {
+          font-size: 50px;
+          line-height: 45px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 770px) {
+  #home-page {
+    .main-title {
+      .name {
+        h1 {
+          font-size: 50px;
+          line-height: 70px;
+          text-align: center;
+        }
+      }
+      .desigination {
+        h1 {
+          font-size: 70px;
+          line-height: 75px;
+          text-align: center;
+        }
+      }
+    }
+    .developer-image {
+      display: none;
+    }
+    .social-media-icons {
+      justify-content: center;
+      margin: 4rem 0 1rem 0;
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  #home-page {
+    .main-title {
+      .name {
+        margin-top: 2rem;
+        h1 {
+          font-size: 45px;
+          line-height: 55px;
+          text-align: center;
+        }
+      }
+      .desigination {
+        margin-top: 3rem;
+        h1 {
+          font-size: 55px;
+          line-height: 60px;
+          text-align: center;
+        }
+      }
+    }
+
+    .social-media-icons {
+      justify-content: center;
+      margin: 3rem 0 1rem 0;
+    }
+  }
+}

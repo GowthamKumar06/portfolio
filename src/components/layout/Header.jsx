@@ -31,7 +31,7 @@ export default function Header() {
                     </NavLink>
                   </li>
 
-                  <button className="theme-switch">🌞</button>
+                  {/* <button className="theme-switch">🌞</button> */}
                 </ul>
               </div>
             </div>
